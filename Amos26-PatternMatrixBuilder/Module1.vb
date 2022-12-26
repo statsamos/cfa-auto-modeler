@@ -11,6 +11,7 @@ Imports System.Text.RegularExpressions
 <System.ComponentModel.Composition.Export(GetType(Amos.IPlugin))>
 Public Class CustomCode
     Implements IPlugin
+    'This plugin was updated 2022 by Joseph Steed
 
     Private Property factors As Dictionary(Of String, ArrayList)
     Private Property filteredVariables As ArrayList
